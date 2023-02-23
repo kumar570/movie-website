@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:box;
+}
+.container{
+    height:100vh;
+    
+    background: url(background.jpg);
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+
+}
+.navbar{
+    height:12%;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    width:200px;
+   
+    border-radius: 20px;
+    cursor:pointer;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+nav{
+    flex:1;
+    text-align:right;
+
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: medium;
+    margin:20px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.column{
+    flex-basis: 50%;
+
+}
+h1{
+    color: green;
+    font-size: 80px;
+    margin-left: 70px;
+}
+p{
+    color:white;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+
+}
+button{
+    height: 40px;
+    width:100px;
+    border-radius: 20px;
+    padding:5px;
+    outline:none;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+button:hover{
+    background:green;
+    scale:1.5;
+}
+.card{
+    width:200px;
+    height:200px;
+    display:inline-block;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url();
+    margin:10px;
+    padding:5px;
+    margin-top: 40px;
+
+}
+.card1{
+    background: url(yashoda.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    background: url(HIT2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    background: url(rrr.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card4{
+    background: url(gaalodu.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.card p{
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 200px;
+    
+
+}
+.card h2{
+    color:white;
+    text-align: center;
+    margin-top: -30px;
+}
+.card:hover{
+    scale:1.1;
+}
